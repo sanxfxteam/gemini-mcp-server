@@ -2,6 +2,10 @@
 
 This is a Model Context Protocol (MCP) server that provides image generation capabilities using Google's Gemini 2 API.
 
+<a href="https://glama.ai/mcp/servers/@sanxfxteam/gemini-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@sanxfxteam/gemini-mcp-server/badge" alt="Gemini Image Generation Server MCP server" />
+</a>
+
 ## Setup
 
 1. Install dependencies:
@@ -55,4 +59,4 @@ Example MCP request:
 
 - This server uses the experimental image generation feature of Gemini 2
 - Make sure you have appropriate access and API keys from Google
-- The server communicates using the Model Context Protocol over stdio 
+- The server communicates using the Model Context Protocol over stdio
