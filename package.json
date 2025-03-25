@@ -1,0 +1,17 @@
+{
+  "name": "gemini-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Gemini image generation",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "testapi": "node testapi.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.22.4"
+  }
+}
