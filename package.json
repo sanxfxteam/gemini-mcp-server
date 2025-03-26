@@ -6,7 +6,7 @@
   "main": "server.js",
   "type": "module",
   "bin": {
-    "gemini-mcp-server": "server.js"
+    "gemini-mcp-server": "node server.js"
   },  
   "scripts": {
     "start": "node server.js",
