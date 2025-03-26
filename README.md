@@ -2,6 +2,36 @@
 
 This is a Model Context Protocol (MCP) server that provides image generation capabilities using Google's Gemini 2 API.
 
+## Quick Start
+
+1. **Get Gemini API Key**
+   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Create a new API key
+
+2. **Configure Claude Desktop**
+   - Locate your config file:
+     ```
+     Mac: ~/Library/Application Support/Claude/claude_desktop_config.json
+     Windows: %APPDATA%\Claude\claude_desktop_config.json
+     Linux: ~/.config/Claude/claude_desktop_config.json
+     ```
+   - Add Gemini configuration:
+     ```json
+     {
+       "mcpServers": {
+         "gemini-imagen": {
+           "command": "npx",
+           "args": ["-y", "github:sanxfxteam/gemini-mcp-server"],
+           "env": {
+             "GEMINI_API_KEY": "your_api_key_here"
+           }
+         }
+       }
+     }
+     ```
+
+3. **Restart Claude Desktop**
+
 ## Setup
 
 1. Install dependencies:

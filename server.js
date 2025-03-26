@@ -9,8 +9,6 @@ import dotenv from 'dotenv';
 // Load environment variables from .env file
 dotenv.config();
 
-console.log = () => {}
-
 // Initialize Gemini API with your API key from environment variables
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
