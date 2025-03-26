@@ -4,6 +4,9 @@
   "description": "MCP server for Gemini image generation",
   "main": "server.js",
   "type": "module",
+  "bin": {
+    "gemini-mcp-server": "server.js"
+  },  
   "scripts": {
     "start": "node server.js",
     "testapi": "node testapi.js"
